@@ -27,6 +27,9 @@ export default function Search() {
         <input type="submit" value="search" onClick={handelSearch} />
       </form>
       {searchingLine}
+      <p>
+        Coded by <a href="https://github.com/nargesazad">NargesAzad</a>
+      </p>
     </div>
   );
 }
